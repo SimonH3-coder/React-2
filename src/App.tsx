@@ -1,8 +1,8 @@
-import { HeaderComponent } from "./components/Buttons/Headercomponents.tsx";
-import { MainComponent } from "./components/Buttons/Maincomponents.tsx";
-import { FooterComponent } from "./components/Buttons/Footercomponents.tsx";
+import { HeaderComponent } from "./components/header/Headercomponent.tsx";
 
 import "./App.css";
+import { MainComponent } from "./components/main/Maincomponent.tsx";
+import { FooterComponent } from "./components/footer/Footercomponent.tsx";
 
 function App() {
   return (
